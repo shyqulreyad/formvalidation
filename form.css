@@ -1,0 +1,92 @@
+::-webkit-input-placeholder { 
+/*    Chrome/Opera/Safari */
+  color: darkblue;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+     
+}
+/*::-moz-placeholder { /* Firefox 19+ */
+  /*color: pink;
+}
+/*:-ms-input-placeholder { /* IE 10+ */
+  /*color: pink;
+}
+/*:-moz-placeholder { /* Firefox 18- */
+  /*color: pink;
+}*/
+body{
+  background-image: url(3.jpg);
+    background-size: cover;
+    color: darkblue;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+  
+    color: black;
+}
+.space{
+    height: 35px;
+}
+p{
+    color: white;
+    transition: 2s;
+}
+.signup{
+    
+    height: 520px;
+    width: 350px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   margin:auto;
+    	
+
+	border-radius:25px;
+	box-shadow: 10px 10px 15px black,
+	            -10px -10px 15px gray;
+}
+.signup form{
+    transition:.5s ease;
+    text-align: center;
+}
+.signup form input{
+    color:darkblue;
+    border:none;
+    outline: none;
+    background:transparent; 
+   
+    height: 45px;
+    width: 250px;
+    border-radius: 20px;
+    transition:.5s ease;
+    
+}
+.shadow{
+    box-shadow: inset -5px -5px 5px gray,
+	           inset 10px 10px 10px black;
+	color:black;
+  transition:.5s ease;	
+}
+
+.btn{
+    cursor: pointer;
+     box-shadow:  -3px -3px 5px white,
+	           5px 5px 5px black;
+		transition:.5s;	   
+}
+.btn:hover{
+/*    background: black;*/
+    box-shadow: none;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
